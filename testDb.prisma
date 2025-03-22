@@ -1,0 +1,6 @@
+model User{
+    id Int @id @unique
+    name String @unique @default("John Doe")
+    number Int @unique
+    
+}
