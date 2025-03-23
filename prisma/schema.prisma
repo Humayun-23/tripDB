@@ -45,6 +45,7 @@ model userBookingHistory{
 model agentTourHistory{
   tourid Int @id @unique
   details String?
-  date DateTime
+  tripdate DateTime
+  
   
 }
